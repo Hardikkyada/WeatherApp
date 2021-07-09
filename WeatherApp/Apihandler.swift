@@ -14,7 +14,7 @@ class Apihandler{
 
     func searchcity(with name:String) -> [Citydetail]{
         
-        if let url = URL(string: "http://api.weatherapi.com/v1/current.json?key=9ed7cfcb9dac424e929134511210707&q=\(name)")
+        if let url = URL(string: "http://api.weatherapi.com/v1/current.json?key=9ed7cfcb9dac424e92913451121070&q=\(name)")
         {
             
             if let data = try? Data(contentsOf: url)
